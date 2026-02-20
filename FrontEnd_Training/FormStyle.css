@@ -1,0 +1,36 @@
+.heading{
+    text-align: center;
+    text-decoration: solid;
+    font-weight: bold;
+}
+body{
+    background-color: aquamarine;
+}
+input{
+    justify-content: space-around;
+    text-shadow: 10px;
+
+}
+legend{
+    text-align: start;
+    font-size: x-large;
+    font-weight: 500;
+    font-family: cursive;
+    color: rgb(11, 70, 3);
+}
+option,select{
+    border-radius: 20px;
+    background-color: rgb(184, 236, 207);
+}
+label{
+    color: rgb(47, 24, 24);
+    font-weight: 400;
+    font-style: italic;
+}
+input[type=button]{
+    background-color: orange;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+}

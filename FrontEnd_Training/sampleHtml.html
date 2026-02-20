@@ -2,9 +2,63 @@
 <html>
     <head>
         <title>HTML Practice</title>
+        <!--this is how you import css-->
+        <link rel = "stylesheet" href="style.css">
+        <!--example by w3schools-->
+        <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
     </head>
     <body>
-        <a href="https://www.google.com">the google tag</a>
+        <h1>The Bigger tag</h1>
+        <h6>The smaller Tag</h6>
+        <hr>
+        <p title="the title is shown" style="font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;font-weight: 900;">The paragraph tag</p>
+        <p style="color: red; visibility: visible;">it's a block level tag</p>
+        <hr>
+        <img src="https://www.w3schools.com/images/img_girl.jpg" alt="the image" height="100px" width="250px" style="display:block">
+        <hr>
+        <a href="https://www.google.com" style="background-color: antiquewhite;">the google tag</a>
+        <p style="text-align: center;">To check br tag <br> the nextline using br tag</p>
+        <span>hi span</span><span> new spawn</span>
+        <pre>
+            hi,
+            how are you
+            mervin
+            fine
+        </pre>
+        <b>bold text</b><br>
+        <strong>strong text</strong><br>
+        <i>italic text</i><br>
+        <em>emphasized text</em><br>
+        <mark>mark text</mark><br>
+        <small>small text</small><br>
+        <del>deleted text</del><br>
+        <ins>inserted text</ins>
+        <p>H<sub>2</sub>o</p>
+        <p>X <sup>2</sup></p>
+        <!-- the commented text-->
+        <p>this <!-- can do this to for text --> is para</p>
+        <!-- padding between the text and the borde-->
+         <!--margin (space) outside the border-->
+        <p style="border: 2px solid red; padding: 12px;">this is another para</p>
+        <!--
+        target attribute:_self,_blank,_parent,_top
+        -->
+        <!-- target not working why? -->
+        <a target="_blank" href="www.google.com">
+            <img src="image.png" alt="some image">
+        </a>
+        <a  href="mailto:muraliprasath2104@gmail.com"></a>
+
+
+        <!-- why wont document.location work and window.location works -->
+        <button onclick="window.location.href = 'change.html'">New Page</button>
+
+        <button style="display: block;" onclick="document.location =practice\FrontEnd_Training\change.html">new Page</button>
+
+        
+        <hr>
+        <p>hi</p>
+
     </body>
     <!-- <script>
         let listOfPTags = document.getElementsByTagName("p");
